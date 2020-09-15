@@ -43,6 +43,8 @@ do
   checkout ${repo} ${folder};
   cp -r ./shared/* "${folder}/";
   commit_push ${folder};
+  sleep 5;
+  rm ${folder};
   # or do whatever with individual element of the array
 done
 
