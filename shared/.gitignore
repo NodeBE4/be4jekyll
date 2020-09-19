@@ -16,3 +16,4 @@ Gemfile.lock
 _posts_sample
 .env
 onetime.js
+tmp
