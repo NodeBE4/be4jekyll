@@ -32,7 +32,7 @@ commit_push () {
 
 
 ## declare an array variable
-declare -a arr=("opinion" "oped2" "waimei"  "society" "teahouse")
+declare -a arr=("opinion" "oped2" "waimei"  "society" "teahouse" "mjlsh")
 
 ## now loop through the above array
 for prj in "${arr[@]}"
